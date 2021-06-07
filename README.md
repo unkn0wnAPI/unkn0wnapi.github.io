@@ -1,2 +1,2 @@
 # unkn0wnapi.github.io
-A simple webpage for my projects
+A single place for my stuff
