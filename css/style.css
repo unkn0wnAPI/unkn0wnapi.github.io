@@ -19,6 +19,13 @@ a:link, a:visited {
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: #3b5ae4;
+    text-underline-position: below;
+    text-underline-offset: 2px;
+}
+
 @media (max-width: 700px){
     div{
         margin: 0 auto;
