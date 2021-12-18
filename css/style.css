@@ -1,33 +1,71 @@
-body {
-    background-color: #02021b;
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* =====FONT IMPORT===== */
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+
+/* =====GLOBAL CSS ELEMENTS===== */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: azure;
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;;
 }
 
-div{
+/* =====MAIN-WIDGET CSS ELEMENTS===== */
+/* MAIN-WIDGET */
+.main-widget{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    width: 500px;
-    margin: 5em auto;
-    margin-top: 20em;
-    padding: 2em;
+    width: 560px;
+    height: 380px;
     background-color: #2e2b2b;
     border-radius: 0.5em;
     box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
 }
-
-p, h1{
-    color: azure;
+.nickname{
+    font-family: 'Oooh Baby', cursive;
+    margin-top: 10px; 
+    margin-bottom: 5px;
+    font-size: 2.5em;
 }
-
-a:link, a:visited {
-    color: #3b5ae4;
+/* MAIN-WIDGET PFP */
+.circular-pfp {
+    height: 230px; 
+    width: 230px; 
+    margin-top: 10px;
+    border-top-left-radius: 50% 50%; 
+    border-top-right-radius: 50% 50%; 
+    border-bottom-right-radius: 50% 50%; 
+    border-bottom-left-radius: 50% 50%; 
+}
+/* MAIN-WIDGET BUTTONS */
+.fancy-button{
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid white;
+    text-decoration: none;
+    transition:.6s ease;
+    font-family: 'Poppins', sans-serif !important;
+}
+.fancy-button:hover{
+    background-color: white;
+    color: black;
     text-decoration: none;
 }
-
-a:hover{
-    text-decoration: underline;
-    text-decoration-color: #3b5ae4;
-    text-underline-position: below;
-    text-underline-offset: 2px;
+/* ABOUT-WIDGET BUTTONS */
+.about-widget{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 560px;
+    height: 400px;
+    background-color: #2e2b2b;
+    border-radius: 0.5em;
+    box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    display: none;
 }
