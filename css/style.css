@@ -19,17 +19,25 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 560px;
+    width: 590px;
     height: 380px;
     background-color: #2e2b2b;
     border-radius: 0.5em;
     box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
 }
-.cursive-font{
-    font-family: 'Oooh Baby', cursive;
-    margin-top: 10px; 
-    margin-bottom: 5px;
-    font-size: 2.5em;
+/* ABOUT-WIDGET */
+.about-widget{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 590px;
+    height: 380px;
+    background-color: #2e2b2b;
+    border-radius: 0.5em;
+    box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    display: none;
 }
 /* MAIN-WIDGET PFP */
 .circular-pfp {
@@ -41,7 +49,7 @@ body{
     border-bottom-right-radius: 50% 50%; 
     border-bottom-left-radius: 50% 50%; 
 }
-/* MAIN-WIDGET BUTTONS */
+/* FANCY BUTTONS */
 .fancy-button{
     color: white;
     padding: 5px 5px 5px 5px;
@@ -56,17 +64,10 @@ body{
     text-decoration: none;
     cursor: pointer;
 }
-/* ABOUT-WIDGET BUTTONS */
-.about-widget{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 560px;
-    height: 380px;
-    background-color: #2e2b2b;
-    border-radius: 0.5em;
-    box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
-    display: none;
+/* FANCY FONT */
+.cursive-font{
+    font-family: 'Oooh Baby', cursive;
+    margin-top: 10px; 
+    margin-bottom: 5px;
+    font-size: 2.5em;
 }
