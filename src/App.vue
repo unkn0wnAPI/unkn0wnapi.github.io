@@ -17,6 +17,7 @@ import ProfileCard from "./components/ProfileCard.vue";
       <nav>
         <RouterLink to="/">Start</RouterLink>
         <RouterLink to="/projects">Projects</RouterLink>
+        <RouterLink to="/links">Links</RouterLink>
       </nav>
     </div>
   </header>
@@ -39,7 +40,7 @@ header {
 }
 
 nav {
-  width: 100%;
+  /* width: 100%; */
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;

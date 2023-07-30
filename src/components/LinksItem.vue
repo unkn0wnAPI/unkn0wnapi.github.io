@@ -1,3 +1,16 @@
+<script setup>
+defineProps({
+  url: {
+    type: String,
+    required: true,
+  },
+  text: {
+    type: String,
+    required: true,
+  },
+});
+</script>
+
 <template>
   <div class="item">
     <i>
@@ -5,7 +18,7 @@
     </i>
     <div class="details">
       <h3>
-        <slot name="heading"></slot>
+        <a :href="url" target="_blank">{{ text }}</a>
       </h3>
       <slot></slot>
     </div>
@@ -38,8 +51,9 @@ h3 {
   font-weight: 500;
   margin-bottom: 0.4rem;
   color: var(--color-heading);
-  text-decoration: overline;
+  text-decoration: underline;
   text-underline-offset: 4px;
+  text-decoration-color: #98e8c1;
   font-family: "Solaris-2";
 }
 

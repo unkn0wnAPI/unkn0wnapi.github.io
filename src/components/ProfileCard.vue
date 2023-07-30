@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <div class="ProfileCard">
-    <h1 class="green">{{ name }}</h1>
+    <h1>{{ name }}</h1>
     <h3>
       Network Engineer<br />
       IT Systems Administrator
@@ -23,6 +23,9 @@ h1 {
   font-size: 2.6rem;
   position: relative;
   top: -10px;
+  background: linear-gradient(to right, #98e8c1, #7bade2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: "solaris-2", sans-serif !important;
 }
 
