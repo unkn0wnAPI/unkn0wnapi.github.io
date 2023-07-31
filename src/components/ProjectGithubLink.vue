@@ -23,5 +23,6 @@ a {
   font-size: 1rem;
   font-family: "solaris-2", sans-serif !important;
   text-align: center;
+  text-decoration: underline;
 }
 </style>

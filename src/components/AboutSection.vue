@@ -11,8 +11,10 @@ import HomelabIcon from "./icons/HomelabIcon.vue";
       <AboutMeIcon />
     </template>
     <template #heading>About Me</template>
-    Hi! I'm Jakub. Your average linux user, interested in computer science and
-    programming (although the latter one is only a hobby for me)
+    Hello I am <span class="highlight">unkn0wnAPI</span> a student, tinkerer and
+    IT System &amp; Network Administrator.
+    <span class="highlight">I am interested in everything IT has to offer</span
+    >, from software solutions to hardware experiments.
   </AboutItem>
 
   <AboutItem>
@@ -20,9 +22,14 @@ import HomelabIcon from "./icons/HomelabIcon.vue";
       <SkillsIcon />
     </template>
     <template #heading>Skills</template>
-    My skills center around IT System & Network Administration (from
-    hardware/software deployment to network configuration and administration).
-    <br />When it comes to programming, I mostly use Python, PHP and MySQL
+    <span class="highlight"
+      >My skills center around networking and IT systems deployment</span
+    >, from creating networks from scratch to preparing hardware deployment for
+    specific environments. Additionally in my spare time
+    <span class="highlight"
+      >I write automation scripts and backend services using Python, PHP &amp;
+      MySQL.</span
+    >
   </AboutItem>
 
   <AboutItem>
@@ -30,9 +37,20 @@ import HomelabIcon from "./icons/HomelabIcon.vue";
       <HomelabIcon />
     </template>
     <template #heading>Homelab</template>
-    As an average tinkerer, In my spare time I experiment with server, services
-    and other network appliances. <br />I am using my knowledge from these
-    experiments to self-host and manage web server, services and game servers
-    (like nginx, jellyfin, etc.) using docker containers.
+    Tinkering with different hardware, software &amp; environments taught me a
+    thing or two, now
+    <span class="highlight"
+      >I use my experience to self-host my own infrastructure</span
+    >, from web servers using nginx to web services using docker containers.
   </AboutItem>
 </template>
+
+<style scoped>
+.highlight {
+  background: linear-gradient(128deg, #98e8c1, #7bade2);
+  background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+</style>

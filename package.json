@@ -1,10 +1,10 @@
 {
   "name": "unkn0wnapi.github.io",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build --outDir docs",
+    "build": "prettier --write src/; vite build --outDir docs",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/"
   },

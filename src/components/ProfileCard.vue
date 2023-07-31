@@ -24,6 +24,7 @@ h1 {
   position: relative;
   top: -10px;
   background: linear-gradient(to right, #98e8c1, #7bade2);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "solaris-2", sans-serif !important;
