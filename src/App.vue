@@ -40,7 +40,7 @@ header {
 }
 
 nav {
-  font-size: 12px;
+  font-size: 1rem;
   text-align: center;
   margin-top: 2rem;
   font-family: "Solaris-2";
