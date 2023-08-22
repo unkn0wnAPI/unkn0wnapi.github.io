@@ -11,11 +11,12 @@ import GithubLink from "../components/ProjectGithubLink.vue";
           <img class="svg" src="../components/icons/GithubLogo.svg" alt="gh" />
         </template>
         <template #heading>SysAdmin Scripts</template>
-        A collection of self made scripts, that I made to simplify deployment
-        and management of systems/services.
+        A collection of self made scripts to simplify deployment and management
+        of systems/services.
         <GithubLink
           url="https://github.com/unkn0wnAPI/sysadmin-scripts"
           text="Open Github Repo"
+          target="_blank"
         />
       </ProjectItem>
       <br />
@@ -24,17 +25,19 @@ import GithubLink from "../components/ProjectGithubLink.vue";
           <img class="svg" src="../components/icons/GithubLogo.svg" alt="gh" />
         </template>
         <template #heading>unkn0wnapi.github.io</template>
-        Source code of the VueJS site you are currently viewing.
+        Source code for the github-pages site you are currently viewing powered
+        by VueJS &amp; VueRouter
         <GithubLink
           url="https://github.com/unkn0wnAPI/unkn0wnapi.github.io"
           text="Open Github Repo"
+          target="_blank"
         />
       </ProjectItem>
     </div>
   </main>
 </template>
 
-<style>
+<style scoped>
 @media (min-width: 1024px) {
   .projects {
     min-height: 100vh;

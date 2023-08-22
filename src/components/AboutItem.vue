@@ -38,7 +38,6 @@ h3 {
   font-weight: 500;
   color: var(--color-heading);
   text-decoration: overline;
-  text-underline-offset: 4px;
   font-family: "Solaris-2";
 }
 
