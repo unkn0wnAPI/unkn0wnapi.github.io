@@ -11,8 +11,8 @@ import GithubLink from "../components/ProjectGithubLink.vue";
           <img class="svg" src="../components/icons/GithubLogo.svg" alt="gh" />
         </template>
         <template #heading>SysAdmin Scripts</template>
-        A collection of self made scripts to simplify deployment and management
-        of systems/services.
+        Personal collection of scripts made to simplify deployment and
+        management of systems and services.
         <GithubLink
           url="https://github.com/unkn0wnAPI/sysadmin-scripts"
           text="Open Github Repo"
@@ -25,8 +25,7 @@ import GithubLink from "../components/ProjectGithubLink.vue";
           <img class="svg" src="../components/icons/GithubLogo.svg" alt="gh" />
         </template>
         <template #heading>unkn0wnapi.github.io</template>
-        Source code for the github-pages site you are currently viewing powered
-        by VueJS &amp; VueRouter
+        Source code of my github-pages site, powered by VueJS and Vue Router
         <GithubLink
           url="https://github.com/unkn0wnAPI/unkn0wnapi.github.io"
           text="Open Github Repo"
