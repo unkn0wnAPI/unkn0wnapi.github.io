@@ -1,12 +1,12 @@
 <script setup>
-import AboutItem from "./AboutItem.vue";
-import AboutMeIcon from "./icons/AboutMeIcon.vue";
-import SkillsIcon from "./icons/SkillsIcon.vue";
-import HomelabIcon from "./icons/HomelabIcon.vue";
+import Element from "./Element.vue";
+import AboutMeIcon from "../icons/AboutMeIcon.vue";
+import SkillsIcon from "../icons/SkillsIcon.vue";
+import HomelabIcon from "../icons/HomelabIcon.vue";
 </script>
 
 <template>
-  <AboutItem>
+  <Element>
     <template #icon>
       <AboutMeIcon />
     </template>
@@ -15,9 +15,9 @@ import HomelabIcon from "./icons/HomelabIcon.vue";
     IT System &amp; Network Administrator.
     <span class="highlight">I am interested in everything IT has to offer</span
     >, from software solutions to hardware experiments.
-  </AboutItem>
+  </Element>
 
-  <AboutItem>
+  <Element>
     <template #icon>
       <SkillsIcon />
     </template>
@@ -30,9 +30,9 @@ import HomelabIcon from "./icons/HomelabIcon.vue";
       >I write automation scripts and backend services using Python, PHP &amp;
       MySQL.</span
     >
-  </AboutItem>
+  </Element>
 
-  <AboutItem>
+  <Element>
     <template #icon>
       <HomelabIcon />
     </template>
@@ -42,7 +42,7 @@ import HomelabIcon from "./icons/HomelabIcon.vue";
     <span class="highlight"
       >I use my experience to self-host my own infrastructure</span
     >, from web servers using nginx to web services using docker containers.
-  </AboutItem>
+  </Element>
 </template>
 
 <style scoped>

@@ -1,15 +1,15 @@
 # unkn0wnapi.github.io
 
-Source code for my github-pages site written in VueJS3
+Source code for my github-pages site written in VueJS
 
 ## Prerequisites
 
-If you intend to build/test/deploy or debug this code, you are required to install [NodeJS](https://nodejs.org/en).  
-It is recommended to use [nvm](https://github.com/nvm-sh/nvm) to install and maintain NodeJS environment.
+If you intend to build, test or debug this code, it is required to install [NodeJS](https://nodejs.org/en).  
+I recommended using [nvm](https://github.com/nvm-sh/nvm) to install and maintain NodeJS environments.
 
 ## Usage
 
-To run the scripts from this repository, you'll need [Git](https://git-scm.com/) installed on the machine. After installing git, you need to clone this repository by using the following commands from the command line:
+To use this repository, you'll need [Git](https://git-scm.com/) installed on the machine. After installing git, you can clone it by using the following commands:
 
 ```bash
 # Clone this repository

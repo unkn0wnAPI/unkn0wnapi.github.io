@@ -1,15 +1,15 @@
 <script setup>
-import LinkItem from "../components/LinksItem.vue";
+import Link from "../components/links-page/LinkElement.vue";
 </script>
 
 <template>
   <main>
     <div class="links">
-      <LinkItem url="https://github.com/unkn0wnAPI" text="Github Account">
+      <Link url="https://github.com/unkn0wnAPI" text="Github Account">
         <template #icon>
           <img class="svg" src="../components/icons/GithubLogo.svg" alt="gh" />
         </template>
-      </LinkItem>
+      </Link>
     </div>
   </main>
 </template>

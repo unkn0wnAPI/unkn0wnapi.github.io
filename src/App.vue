@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import ProfileCard from "./components/ProfileCard.vue";
+import ProfileCard from "./components/ProfileSection.vue";
 </script>
 
 <template>

@@ -1,37 +1,37 @@
 <script setup>
-import ProjectItem from "../components/AboutItem.vue";
-import GithubLink from "../components/ProjectGithubLink.vue";
+import Element from "../components/about-page/Element.vue";
+import GHLink from "../components/projects-page/GithubLink.vue";
 </script>
 
 <template>
   <main>
     <div class="projects">
-      <ProjectItem>
+      <Element>
         <template #icon>
           <img class="svg" src="../components/icons/GithubLogo.svg" alt="gh" />
         </template>
         <template #heading>SysAdmin Scripts</template>
         Personal collection of scripts made to simplify deployment and
         management of systems and services.
-        <GithubLink
+        <GHLink
           url="https://github.com/unkn0wnAPI/sysadmin-scripts"
           text="Open Github Repo"
           target="_blank"
         />
-      </ProjectItem>
+      </Element>
       <br />
-      <ProjectItem>
+      <Element>
         <template #icon>
           <img class="svg" src="../components/icons/GithubLogo.svg" alt="gh" />
         </template>
         <template #heading>unkn0wnapi.github.io</template>
         Source code of my github-pages site, powered by VueJS and Vue Router
-        <GithubLink
+        <GHLink
           url="https://github.com/unkn0wnAPI/unkn0wnapi.github.io"
           text="Open Github Repo"
           target="_blank"
         />
-      </ProjectItem>
+      </Element>
     </div>
   </main>
 </template>

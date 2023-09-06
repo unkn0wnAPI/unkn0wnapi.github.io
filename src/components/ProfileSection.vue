@@ -11,7 +11,7 @@ defineProps({
   <div class="ProfileCard">
     <h1>{{ name }}</h1>
     <h3>
-      Network Engineer<br />
+      Network Engineer &<br />
       IT Systems Administrator
     </h3>
   </div>
