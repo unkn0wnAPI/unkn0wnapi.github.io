@@ -4,7 +4,7 @@ Source code for my github-pages site written in VueJS
 
 ## Prerequisites
 
-If you intend to build, test or debug this code, it is required to install [NodeJS](https://nodejs.org/en).  
+If you intend to build, test or debug this code, you are required to install [NodeJS](https://nodejs.org/en).  
 I recommended using [nvm](https://github.com/nvm-sh/nvm) to install and maintain NodeJS environments.
 
 ## Usage
