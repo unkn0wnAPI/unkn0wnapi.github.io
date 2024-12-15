@@ -18,6 +18,7 @@ import ProfileCard from "./components/ProfileSection.vue";
         <RouterLink to="/">Start</RouterLink>
         <RouterLink to="/projects">Projects</RouterLink>
         <RouterLink to="/links">Links</RouterLink>
+        <RouterLink to="/mt-fw-tool">Mikrotik Firewall Tool</RouterLink>
       </nav>
     </div>
   </header>
@@ -61,8 +62,14 @@ nav a {
   border-left: 1px solid var(--color-border);
 }
 
-nav a:first-of-type {
+nav a:first-of-type,
+a:last-of-type {
   border: 0;
+}
+
+nav a:last-of-type {
+  text-align: center;
+  margin: 0 auto;
 }
 
 @media (min-width: 1024px) {

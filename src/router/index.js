@@ -19,6 +19,11 @@ const router = createRouter({
       name: "links",
       component: () => import("../views/Links.vue"),
     },
+    {
+      path: "/mt-fw-tool",
+      name: "mt-fw-tool",
+      component: () => import("../views/mt-fw-tool.vue"),
+    },
   ],
 });
 

@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "prettier --write src/; vite build --outDir docs; cd docs && cp index.html 404.html",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore --ignore-pattern 'docs/*'",
     "format": "prettier --write src/"
   },
   "dependencies": {
