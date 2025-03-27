@@ -3,7 +3,6 @@
 
 # NodeJS Elements
 node_modules
-package-lock.json
 
 # local env files
 .env.local
