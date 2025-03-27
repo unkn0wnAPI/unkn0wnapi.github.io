@@ -34,7 +34,7 @@ const formOnSubmit = (e) => {
   const networkPairs = generatePairs(networks);
 
   // Set showOutput to true to display the output section
-  showOutput.value = true;
+  if (networks.length != 0 && networks[0] != "") showOutput.value = true;
 
   // Build the output string
   let outputString = "";
@@ -150,6 +150,7 @@ const resetForm = () => {
   border-radius: 4px;
   cursor: pointer;
   width: 49%; /* Cut the width in half */
+  font-family: "solaris-2", sans-serif !important;
 }
 
 .reset-btn:hover {
